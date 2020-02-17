@@ -22,8 +22,5 @@ yarn.lock
 *.zip
 *.rar
 
-# th3rd
-/src/lib/th3rd/
-
 #debug 
 /src/debug
