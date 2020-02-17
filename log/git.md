@@ -16,6 +16,9 @@
   - 中文显示
     - 打开Git Bash后，对窗口右键->Options->Text->Locale改为zh_CN，Character set改为UTF-8
     - git config core.quotepath false
+    - 试试git --no-pager log
+    - 如果可以显示的话，把pager设置为more
+    - git config --global core.pager more
 
   - 常用命令
     - 注册
@@ -32,6 +35,8 @@
         - git status
         - git reflog
         - git log
+      - 切换版本
+        - git checkout [commit-id]
     - 分支
       - 创建分支
         - git branch [branch name]
