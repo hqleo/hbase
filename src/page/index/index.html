@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>教程</title>
+
+    <!-- vue -->
+    <!-- <script src="./th3rd/vue/vue.min.js"></script> -->
+    <!-- eleUI -->
+    <!-- <link rel="stylesheet" href="./th3rd/eleUI/css/eleui.min.css" />
+    <script src="./th3rd/eleUI/js/eleui.min.js"></script> -->    
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">    
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <style>
+        .main-box {
+          background-color: #aaa;   
+          line-height: 60px;
+        }
+        
+        .side-box {
+          background-color: #999;          
+        }
+    </style>
+</head>
+<body>       
+  <el-container id="mainform">
+    <el-aside class="side-box">Aside</el-aside>
+    <el-main  class="main-box">Main</el-main>
+  </el-container>
+  <script>
+        // com init
+        com = !window.com ? {} : window.com;
+        com['mainform'] = new Vue({
+            el: '#mainform',
+            data: {
+
+            },
+            methods: {
+
+            },
+        });    
+  </script>
+</body>
+
+</html>

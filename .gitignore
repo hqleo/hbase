@@ -1,0 +1,29 @@
+# runtime Files
+/dist/
+/.*/
+
+# node File
+/node_modules/
+yarn.lock
+
+# temp File #
+*.log
+*.temp
+*.~*
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.zip
+*.rar
+
+# th3rd
+/src/lib/th3rd/
+
+#debug 
+/src/debug

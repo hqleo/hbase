@@ -1,0 +1,92 @@
+
+body {
+    min-width: 1280px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;    
+    background-image: url('../../img/login/bg.png');
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+/* 表单 */
+.login-form {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -200px;
+    background-color: #fff;
+    border: solid #ccc 1px;
+    border-radius: 6px;
+    padding: 0 20px 0 10px;
+    z-index: 1;
+    box-sizing: border-box;
+    box-shadow:3px 3px 5px #666;
+}
+/* 表单标题 */
+.form-title {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    line-height: 50px;
+    font-size: 21px;
+}
+/* 表单行 */
+.form-row{
+    line-height: 40px;
+    font-size: 14px;
+    margin:10px 5px;
+}
+
+.form-row>span {       
+    width: 80px;     
+    text-align: right;
+    vertical-align: middle;
+    float: left;    
+    color: #606266;
+    padding: 0 12px 0 0;            
+    box-sizing: border-box;
+}
+.form-row .form-row-client{
+    position: relative;    
+    margin-left: 80px;
+}
+
+.form-row .form-row-client input,.form-row .form-row-client2 input{            
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    background-color: #FFF;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid #DCDFE6;    
+    box-sizing: border-box;
+    color: #606266;
+    outline: 0;
+    padding: 0 15px;
+    -webkit-transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+    transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
+    width: 100%;
+}
+
+.form-row .form-row-client2{
+    position: relative;    
+    margin-left: 80px;
+    margin-right: 100px;
+}
+
+.form-row .form-row-right-btn{
+    width: 90px;
+    height: 40px;
+    text-align: right;
+    vertical-align: middle;
+    float: right;    
+}
+
+.login-btn {    
+    display: block;
+    width: 100%;
+}
