@@ -12,6 +12,10 @@
     - 以方括号“[]”包含单个字符的匹配列表；
     - 以叹号“!”表示不忽略(跟踪)匹配到的文件或目录。
     - 注意： git 对于 .gitignore配置文件是按行从上到下进行规则匹配的
+  
+  - 中文显示
+    - 打开Git Bash后，对窗口右键->Options->Text->Locale改为zh_CN，Character set改为UTF-8
+    - git config core.quotepath false
 
   - 常用命令
     - 注册
