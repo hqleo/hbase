@@ -74,4 +74,8 @@
         - git pull origin master
       - 本地更新到远程
         - git push origin master
+    - ssh
+      - 生成ssh-keygen.exe
+      - 恢复文件放到C:\Users\xxx\.ssh
+      - 把pub填到github
        
