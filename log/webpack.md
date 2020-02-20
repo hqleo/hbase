@@ -44,4 +44,3 @@
   yarn add copy-webpack-plugin uglify-es mini-css-extract-plugin html-minifier clean-weppack-plugin -D
   ```
 ## 遇到的问题
-- 2020-02-07 15:00:17 @HQLeo：html scrpit 标签不对，没有载入JS；

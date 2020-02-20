@@ -76,6 +76,6 @@
         - git push origin master
     - ssh
       - 生成ssh-keygen.exe
-      - 恢复文件放到C:\Users\xxx\.ssh
-      - 把pub填到github
+      - 把公钥.pub COPY到github或者把私钥文件放到C:\Users\xxx\.ssh 
+      
        
