@@ -77,5 +77,17 @@
     - ssh
       - 生成ssh-keygen.exe
       - 把公钥.pub COPY到github或者把私钥文件放到C:\Users\xxx\.ssh 
+  - github 与 gitee 同时使用
+    - 先在github与gitee有两个建立项目
+      - 先push一个，然后在另一个使用参数[-f]进行强制上传
+      ```
+      git push xxx master -f 
+      ```
+    - 同步后，克隆与更新
+    ```
+    git clone xxx.git
+    git remote add xxx xxx.git
+    git push xxx master
+    ```
       
        
